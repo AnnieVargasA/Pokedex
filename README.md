@@ -1,3 +1,6 @@
+# Pokedex
+
+This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.4.
 # Project Structure
 
 Below is an overview of the main folders and files in this project:
@@ -39,9 +42,6 @@ pokedex/
 - `src/sass/base/`: Variables, base styles, and typography.
 - `src/sass/components/`: Styles for each specific component.
 - `src/sass/abstracts/`: Reusable Sass mixins and functions.
-# Pokedex
-
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.4.
 
 ## Development server
 
@@ -98,3 +98,4 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
