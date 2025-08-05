@@ -1,0 +1,16 @@
+@use '../base/variables';
+.footer {
+  text-align: center;
+  margin-top: 1.5rem;
+  color: variables.$color-blue;
+  font-size: .96rem;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 1px #fff7;
+  font-family: variables.$font-main;
+}
+@media (max-width: 520px) {
+  .pokedex-frame { padding: 0 0 18px 0;}
+  .pokemon-card { padding: 1rem .4rem .8rem .4rem; }
+  .search-section input[type="text"] { width: 100%; }
+  .pokedex-header { padding: 20px 5px 10px 5px; }
+}

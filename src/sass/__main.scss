@@ -1,0 +1,19 @@
+@use './abstracts/mixins';
+@use './abstracts/animations';
+
+@use './base/variables';
+@use './base/base';
+@use './base/typography';
+
+@use './components/pokedex-frame';
+@use './components/pokedex-header';
+@use './components/pokedex-lens';
+@use './components/pokedex-title';
+@use './components/pokedex-divider';
+@use './components/search-section';
+@use './components/alert';
+@use './components/pokemon-card';
+@use './components/pokemon-types';
+@use './components/recent-searches';
+@use './components/spinner-border';
+@use './components/footer';

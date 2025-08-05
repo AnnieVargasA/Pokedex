@@ -1,0 +1,8 @@
+@use '../base/variables';
+body {
+  background: linear-gradient(135deg, variables.$color-red 0%, variables.$color-yellow 100%);
+  min-height: 100vh;
+  margin: 0;
+  font-family: variables.$font-main;
+  color: variables.$color-black;
+}

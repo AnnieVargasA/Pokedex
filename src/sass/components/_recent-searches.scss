@@ -1,0 +1,29 @@
+@use '../base/variables';
+.recent-searches {
+  margin-top: .6rem;
+  text-align: center;
+}
+.recent-searches h5 {
+  color: variables.$color-blue;
+  font-size: 1.08rem;
+  margin-bottom: 0.3rem;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+.recent-btn {
+  font-family: inherit;
+  font-size: .98rem;
+  background: variables.$color-white;
+  border: 2px solid variables.$color-red;
+  color: variables.$color-red;
+  border-radius: 8px;
+  padding: 4px 10px;
+  margin: 0 4px 6px 0;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  text-shadow: 1px 1px 0 #fff7;
+}
+.recent-btn:hover {
+  background: variables.$color-red;
+  color: variables.$color-white;
+}

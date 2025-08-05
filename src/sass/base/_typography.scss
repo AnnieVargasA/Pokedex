@@ -1,0 +1,5 @@
+@use '../base/variables';
+
+.alert, .pokemon-card, .spinner-border {
+  font-family: variables.$font-main;
+}

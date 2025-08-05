@@ -1,0 +1,44 @@
+@use '../base/variables';
+
+.pokemon-card {
+  max-width: 340px;
+  margin: 0 auto 1.5rem auto;
+  background: linear-gradient(110deg, variables.$color-white, variables.$color-yellow 45%);
+  border: 3.5px solid variables.$color-blue;
+  border-radius: 18px;
+  padding: 1.3rem 1rem 1.2rem 1rem;
+  text-align: center;
+  box-shadow: 0 3px 24px variables.$color-shadow;
+  animation: fadeIn 0.5s;
+  position: relative;
+}
+.pokemon-sprite {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+  background: variables.$color-white;
+  border-radius: 50%;
+  box-shadow: 0 2px 12px #0001;
+  border: 3px solid variables.$color-yellow;
+}
+.pokemon-card h2 {
+  color: variables.$color-red;
+  font-size: 1.5rem;
+  margin-bottom: .3rem;
+  text-shadow: 1px 1px 0 variables.$color-white;
+  text-transform: capitalize;
+}
+.pokemon-card .info-list {
+  text-align: left;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  font-size: 1.05rem;
+  color: variables.$color-black;
+  max-width: 205px;
+}
+.pokemon-card .info-list li {
+  margin-bottom: 6px;
+  border-bottom: 1px dashed variables.$color-yellow;
+  padding-bottom: 2px;
+}

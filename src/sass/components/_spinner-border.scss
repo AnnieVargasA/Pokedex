@@ -1,0 +1,10 @@
+@use '../base/variables';
+.spinner-border {
+  display: inline-block;
+  width: 2.5rem; height: 2.5rem;
+  border: .3em solid variables.$color-yellow;
+  border-right-color: variables.$color-red;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: 1.4rem auto 0 auto;
+}
