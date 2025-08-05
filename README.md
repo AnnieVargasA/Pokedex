@@ -1,3 +1,44 @@
+# Project Structure
+
+Below is an overview of the main folders and files in this project:
+
+```
+pokedex/
+├── angular.json           # Angular CLI configuration
+├── package.json           # Project dependencies and scripts
+├── README.md              # Project documentation
+├── tsconfig.json          # TypeScript configuration
+├── src/                   # Main source code
+│   ├── index.html         # Main HTML entry point
+│   ├── main.ts            # Angular bootstrap file
+│   ├── styles.scss        # Global styles entry
+│   ├── app/               # Root Angular app files (bootstrap, config, module, routes)
+│   ├── assets/            # Static assets and translation files (en.json, es.json)
+│   ├── components/        # Angular components (pokedex, pokemon-card, search-form, etc.)
+│   ├── model/             # TypeScript interfaces/models (e.g., pokemon.model.ts)
+│   ├── services/          # Angular services (API, business logic)
+│   └── sass/              # Main Sass styles folder (7-1 architecture)
+│       ├── __main.scss    # Imports all Sass partials
+│       ├── abstracts/     # Sass mixins, functions, and helpers
+│       ├── base/          # Variables, base styles, and typography
+│       ├── components/    # Individual component styles
+│       ├── layout/        # Layout and grid styles
+│       ├── pages/         # Page-specific styles
+│       ├── themes/        # Color themes or skin options
+│       └── vendors/       # Third-party or vendor styles
+```
+
+**Brief description of key folders:**
+
+- `src/app/`: Main Angular app code (bootstrap, configuration, root module, routes).
+- `src/assets/`: Static assets and translations (`en.json`, `es.json`).
+- `src/components/`: Reusable Angular components (Pokedex, Card, Search, etc.).
+- `src/model/`: TypeScript interfaces and models for strong typing.
+- `src/services/`: Angular services for business logic and API consumption.
+- `src/sass/`: 7-1 Sass architecture for global and component styles.
+- `src/sass/base/`: Variables, base styles, and typography.
+- `src/sass/components/`: Styles for each specific component.
+- `src/sass/abstracts/`: Reusable Sass mixins and functions.
 # Pokedex
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.4.

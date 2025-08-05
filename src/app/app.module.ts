@@ -5,8 +5,6 @@ import { BrowserModule } from '@angular/platform-browser';
 // import { PokedexComponent } from '../components/pokedex/pokedex.component';
 
 @NgModule({
-  // Standalone components, no declarations necesarios
   imports: [BrowserModule],
-  // bootstrap: [AppComponent]
 })
 export class AppModule {}
