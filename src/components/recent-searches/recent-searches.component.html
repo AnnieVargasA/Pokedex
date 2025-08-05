@@ -1,0 +1,8 @@
+<div class="recent-searches">
+  <h5>{{ 'RECENT.TITLE' | translate }}</h5>
+  <div>
+    <button *ngFor="let name of recents" class="recent-btn" (click)="searchRecent(name)">
+      {{ name }}
+    </button>
+  </div>
+</div>

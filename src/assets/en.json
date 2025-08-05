@@ -1,0 +1,6 @@
+{
+  "SEARCH": { "BUTTON": "Search" },
+  "POKEMON": { "TYPE": "Type", "WEIGHT": "Weight", "HEIGHT": "Height" },
+  "RECENT": { "TITLE": "Recent searches" },
+  "LOADING": "Loading..."
+}

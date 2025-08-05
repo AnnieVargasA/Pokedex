@@ -1,0 +1,24 @@
+<div class="pokedex-frame">
+  <header class="pokedex-header">
+    <div class="pokedex-lens"></div>
+    <span class="pokedex-title">Pokédex</span>
+    <div class="pokedex-divider"></div>
+  </header>
+  <section class="search-section">
+    <app-search-form (search)="onSearch($event)"></app-search-form>
+  </section>
+  <section *ngIf="loading" class="text-center">
+    <div class="spinner-border"></div>
+    <p>{{ 'LOADING' | translate }}</p>
+  </section>
+  <section *ngIf="error" class="alert">
+    <span>{{ error }}</span>
+  </section>
+  <section *ngIf="pokemon">
+    <app-pokemon-card [pokemon]="pokemon"></app-pokemon-card>
+  </section>
+  <app-recent-searches (search)="onSearch($event)"></app-recent-searches>
+  <footer class="footer">
+    <small>Pokédex Angular + Sass · Prueba Técnica</small>
+  </footer>
+</div>

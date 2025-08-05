@@ -1,0 +1,9 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit()" autocomplete="off">
+  <input formControlName="pokemonName" type="text"
+         placeholder="Ejemplo: bulbasaur"
+         aria-label="Nombre de Pokémon"
+         [attr.aria-invalid]="form.invalid ? true : null" />
+  <button type="submit" [disabled]="form.invalid">
+    {{ 'SEARCH.BUTTON' | translate }}
+  </button>
+</form>
