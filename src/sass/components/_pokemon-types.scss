@@ -1,0 +1,32 @@
+@use '../base/variables';
+.pokemon-types .type-badge {
+  display: inline-block;
+  font-size: .89rem;
+  font-weight: bold;
+  color: variables.$color-white;
+  background: variables.$color-grey;
+  border-radius: 8px;
+  padding: 2px 10px;
+  margin-right: 4px;
+  margin-bottom: 2px;
+  text-shadow: 1px 1px 1px #4449;
+  border: 1.5px solid variables.$color-blue;
+}
+.pokemon-types .type-badge.grass { background: variables.$color-green; border-color: variables.$color-green; }
+.pokemon-types .type-badge.fire { background: variables.$color-red; border-color: variables.$color-red; }
+.pokemon-types .type-badge.water { background: variables.$color-blue; border-color: variables.$color-blue;}
+.pokemon-types .type-badge.electric { background: variables.$color-yellow; color: variables.$color-black; border-color: variables.$color-yellow;}
+.pokemon-types .type-badge.bug { background: variables.$color-green; border-color: variables.$color-green;}
+.pokemon-types .type-badge.poison { background: variables.$color-purple; border-color: variables.$color-purple;}
+.pokemon-types .type-badge.normal { background: variables.$color-grey; color: variables.$color-black; border-color: variables.$color-grey;}
+.pokemon-types .type-badge.flying { background: variables.$color-blue-light; color: variables.$color-black; border-color: variables.$color-blue;}
+.pokemon-types .type-badge.ground { background: variables.$color-brown; border-color: variables.$color-brown;}
+.pokemon-types .type-badge.fairy { background: variables.$color-pink; color: variables.$color-black; border-color: variables.$color-pink;}
+.pokemon-types .type-badge.psychic { background: variables.$color-pink; border-color: variables.$color-purple;}
+.pokemon-types .type-badge.ice { background: variables.$color-blue-light; color: variables.$color-black; border-color: variables.$color-blue;}
+.pokemon-types .type-badge.rock { background: variables.$color-brown; color: variables.$color-black; border-color: variables.$color-brown;}
+.pokemon-types .type-badge.ghost { background: variables.$color-purple; border-color: variables.$color-purple;}
+.pokemon-types .type-badge.fighting { background: variables.$color-red; border-color: variables.$color-brown;}
+.pokemon-types .type-badge.steel { background: variables.$color-grey; color: variables.$color-black; border-color: variables.$color-blue;}
+.pokemon-types .type-badge.dragon { background: variables.$color-blue; border-color: variables.$color-blue;}
+.pokemon-types .type-badge.dark { background: variables.$color-black; border-color: variables.$color-black;}

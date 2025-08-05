@@ -1,0 +1,6 @@
+{
+  "SEARCH": { "BUTTON": "Buscar" },
+  "POKEMON": { "TYPE": "Tipo", "WEIGHT": "Peso", "HEIGHT": "Altura" },
+  "RECENT": { "TITLE": "Búsquedas recientes" },
+  "LOADING": "Cargando..."
+}

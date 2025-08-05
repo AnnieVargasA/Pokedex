@@ -1,0 +1,42 @@
+@use '../base/variables';
+.search-section form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin: 22px 0 12px 0;
+}
+.search-section input[type="text"] {
+  font-family: inherit;
+  background: #f3f4f7;
+  border: 2.5px solid variables.$color-blue;
+  border-radius: 8px;
+  outline: none;
+  font-size: 1.1rem;
+  padding: 7px 12px;
+  width: 66%;
+  transition: border .2s;
+  box-shadow: 0 1px 0 variables.$color-white, 0 2px 8px #0001;
+}
+.search-section input[type="text"]:focus {
+  border-color: variables.$color-yellow;
+}
+.search-section button {
+  font-family: inherit;
+  font-size: 1rem;
+  background: linear-gradient(90deg, variables.$color-yellow 0%, variables.$color-red 100%);
+  color: variables.$color-black;
+  border: 2px solid variables.$color-blue;
+  border-radius: 8px;
+  padding: 7px 18px;
+  font-weight: 700;
+  box-shadow: 0 1px 0 variables.$color-white, 0 2px 8px #0001;
+  cursor: pointer;
+  text-shadow: 1px 1px 0 variables.$color-white;
+  transition: background .2s, border-color .2s;
+  text-transform: uppercase;
+}
+.search-section button:hover {
+  background: linear-gradient(90deg, variables.$color-red 0%, variables.$color-yellow 100%);
+  border-color: variables.$color-red;
+}

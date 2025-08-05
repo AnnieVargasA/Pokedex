@@ -1,0 +1,11 @@
+@use '../base/variables';
+.pokedex-lens {
+  width: 54px;
+  height: 54px;
+  background: radial-gradient(circle at 30% 30%, variables.$color-blue-light 75%, variables.$color-blue 100%);
+  border: 6px solid variables.$color-white;
+  box-shadow: 0 0 0 4px variables.$color-blue, 0 2px 8px #0003;
+  border-radius: 50%;
+  position: absolute;
+  left: 18px; top: 15px;
+}

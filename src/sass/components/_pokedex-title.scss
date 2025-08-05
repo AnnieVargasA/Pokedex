@@ -1,0 +1,11 @@
+@use '../base/variables';
+.pokedex-title {
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  color: variables.$color-white;
+  font-family: variables.$font-main;
+  text-shadow: 3px 3px 0 variables.$color-red, 1px 1px 0 variables.$color-white;
+  margin-bottom: 6px;
+  margin-top: 10px;
+  text-align: center;
+}

@@ -1,0 +1,13 @@
+@use '../base/variables';
+.alert {
+  margin: 0 auto 1rem auto;
+  width: 88%;
+  border-radius: 10px;
+  font-size: 1.11rem;
+  background: variables.$color-yellow;
+  color: variables.$color-red;
+  font-weight: bold;
+  border: 2px solid variables.$color-red;
+  text-align: center;
+  padding: 12px 0;
+}
