@@ -1,0 +1,10 @@
+@forward "";
+.pokedex-header {
+  background: linear-gradient(90deg, $red 70%, $yellow 100%);
+  padding: 22px 24px 12px 24px;
+  border-bottom: 4px solid #b71c1c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}

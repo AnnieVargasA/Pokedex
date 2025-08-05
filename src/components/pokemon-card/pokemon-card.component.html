@@ -5,8 +5,7 @@
     <li><strong>ID:</strong> {{ pokemon.id }}</li>
     <li class="pokemon-types">
       <strong>{{ 'POKEMON.TYPE' | translate }}:</strong>
-      <span *ngFor="let t of pokemon.types"
-        [ngClass]="typeToClass(t.type.name)">
+      <span *ngFor="let t of pokemon.types" [ngClass]="typeToClass(t.type.name)">
         {{ t.type.name }}
       </span>
     </li>
@@ -14,4 +13,3 @@
     <li><strong>{{ 'POKEMON.HEIGHT' | translate }}:</strong> {{ pokemon.height / 10 }} m</li>
   </ul>
 </div>
-  
